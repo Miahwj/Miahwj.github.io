@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Mia_personal_website</title>
+
+        <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 20px 15vw;
+            }
+
+            /****navigation-bar****/
+            #nav{
+                height: 80px;
+            }
+                /*first-name*/
+                #hua{
+                    font-size: 36px;
+                    color: black;
+                    margin-right: 40px;
+                }
+                /*tab*/
+                #tabs{
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                .home{
+                    color: #4C3DF4;
+                    padding-left: 20px;
+                }
+                .home:hover{
+                    cursor: pointer;
+                }
+                .tab{
+                    color: black;
+                    padding-left: 20px;
+                }
+                .tab:hover{
+                    color: rgba(76, 61, 244, 0.5);
+                    cursor: pointer;
+                }
+
+            /****introduction-block****/
+            #introduction{
+                width: 600px;
+                height: 600px;
+                line-height: 1.5em;
+                padding-top: 15px;
+            }
+                /*heading*/
+                h1{
+                    font-size: 42px;
+                    font-weight: bold;
+                }
+                /*schools-or-companies*/
+                .official{
+                    color: black;
+                    text-decoration: underline;
+                }
+                .official:hover{
+                    color: #4C3DF4;              
+                }
+                /*contacts*/
+                #contacts{
+                    margin-top: 30px;
+                }
+                .media{
+                    padding-right: 10px;
+                }
+                svg{
+                    transition: transform 1s;
+                }
+                svg:hover{
+                    transform: scale(1.2);
+                }
+                path{
+                    transition: fill-opacity 1s;
+                }
+                path:hover{
+                    fill-opacity: 0.8;
+                }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!------navigation bar------>
+        <div id="nav">
+            <!--first name-->
+            <span id="hua">華</span>
+            <!--tab-->
+            <span id="tabs">
+                <a class="home">home</a>
+                <a class="tab">work</a>
+                <a class="tab">resume</a>
+            </span>
+        </div>
+
+        <!------personal photo------>
+        <img id="photo" src="https://i.loli.net/2021/10/11/SA2v3oBgpG6OIzd.png" width="250px" height="250px">
+
+        <!------introuction block------>
+        <div id="introduction">
+            <!--text introduction-->
+            <h1>Hi, I'm Hua Wenjing!</h1>
+            <p>A user experience designer with great passion to bridge human and products. Majored in Architecture
+                <a class="official" href="http://arch.hit.edu.cn/English/list.htm" target="_blank">@Harbin Institute of Technology</a>, having worked as a UX designer
+                <a class="official" href="https://www.ximalaya.com/" target="_blank">@Ximalaya</a> and an architect
+                <a class="official" href="http://www.tjad.cn/" target="_blank">@Tongji Architectural Design(Group)Co.,Ltd.</a>, now I am studying Multimedia & Entertainment Technology
+                <a class="official" href="https://www.sd.polyu.edu.hk/en/study-detail/multimedia-and-entertainment-technology" target="_blank">@Hong Kong Polytechnic University</a>.
+            </p>
+    
+            <!--contacts-->
+            <div id="contacts">
+                <a class="media" href="https://www.linkedin.com/in/hua-wenjing-22049421b/" target="_blank">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 48C10.7448 48 0 37.2552 0 24C0 10.7448 10.7448 0 24 0C37.2552 0 48 10.7448 48 24C48 37.2552 37.2552 48 24 48ZM17.5424 34.576V18.6272H12.7424V34.576H17.5424V34.576ZM15.1424 11.68C13.5944 11.68 12.584 12.756 12.6152 14.192C12.5832 15.5616 13.5944 16.6704 15.1112 16.6704C16.6896 16.6704 17.7008 15.5616 17.7008 14.1912C17.6688 12.756 16.6896 11.68 15.1424 11.68ZM21.396 34.576H26.196V25.3784C26.196 24.9224 26.26 24.4328 26.3864 24.1384C26.7016 23.2264 27.4912 22.28 28.8184 22.28C30.5544 22.28 31.2504 23.6824 31.2504 25.7376V34.576H36.0504V25.1176C36.0504 20.4216 33.6824 18.268 30.5232 18.268C27.9656 18.268 26.3864 19.8016 25.7544 20.812H25.6592L25.4384 18.6272H21.2696C21.3328 20.0296 21.396 21.7256 21.396 23.7152V34.576V34.576Z" fill="#4C3DF4" fill-opacity="0.3"/>
+                    </svg>
+                </a>
+                <a class="media" href="https://www.facebook.com/profile.php?id=100071601409373" target="_blank">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 24C48 10.7455 37.2545 0 24 0C10.7455 0 0 10.7455 0 24C0 37.2545 10.7455 48 24 48C37.2545 48 48 37.2545 48 24ZM17.5549 24V19.4073H20.3695V16.6298C20.3695 12.8836 21.4887 10.1847 25.5905 10.1847H30.4691V14.7665H27.0349C25.3135 14.7665 24.9229 15.9098 24.9229 17.1076V19.4073H30.216L29.4938 24H24.9229V37.8524H20.3695V24H17.5549Z" fill="#4C3DF4" fill-opacity="0.3"/>
+                    </svg>
+                </a>
+                <a class="media" href="https://twitter.com/hua_wenjing">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 24C48 10.7455 37.2545 0 24 0C10.7455 0 0 10.7455 0 24C0 37.2545 10.7455 48 24 48C37.2545 48 48 37.2545 48 24ZM11.0771 32.5287C11.4916 32.5811 11.9149 32.6095 12.3425 32.6095C14.8276 32.6138 17.1142 31.7171 18.9273 30.2116C16.6058 30.1571 14.6487 28.5164 13.9745 26.2647C14.2975 26.3324 14.6313 26.3716 14.9716 26.3738C15.456 26.376 15.9229 26.3105 16.368 26.184C13.9418 25.6473 12.1135 23.3455 12.1135 20.6029C12.1135 20.5789 12.1135 20.5549 12.1135 20.5309C12.8291 20.9629 13.6451 21.2247 14.5156 21.264C13.0953 20.2364 12.1593 18.4909 12.1593 16.5273C12.1593 15.4887 12.4211 14.52 12.8771 13.6909C15.4931 17.1491 19.4007 19.4444 23.8058 19.7302C23.7142 19.3178 23.6684 18.888 23.6684 18.4495C23.6684 15.3491 26.0422 12.8749 28.9702 12.9229C30.4953 12.9491 31.8742 13.6495 32.8407 14.7491C34.0495 14.5178 35.184 14.0727 36.2073 13.4509C35.8124 14.7447 34.9702 15.8225 33.8749 16.4967C34.9484 16.3767 35.9695 16.0931 36.9207 15.6633C36.2095 16.7695 35.3105 17.736 34.2742 18.5084C34.2851 18.7484 34.2895 18.9884 34.2895 19.2284C34.2895 26.5898 28.9549 35.0793 19.2022 35.0749C16.2109 35.0771 13.4225 34.1389 11.0771 32.5287Z" fill="#4C3DF4" fill-opacity="0.3"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
